@@ -11,13 +11,15 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
-      :{release_inc}
+      :{release_inc} --os-name fedora
+    - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
+      :{release_inc} --os-name rhel
     devel_branch: kinetic-devel
     last_version: 1.3.3
     name: upstream
     patches: null
     release_inc: '1'
-    release_repo_url: null
+    release_repo_url: https://github.com/mitre/kvh_geo_fog_3d-release.git
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
