@@ -2,6 +2,11 @@
 Changelog for package kvh_geo_fog_3d_rviz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2021-07-01)
+-----------
+* Fixing merge error in changelog
+* Contributors: Zach LaCelle
+
 1.5.0 (2021-07-01)
 -----------
 * No changes to the RViz plugin.
@@ -17,19 +22,11 @@ Changelog for package kvh_geo_fog_3d_rviz
 
 1.3.2 (2020-01-17)
 -----------
-<<<<<<< HEAD
-* No changes to rviz package
-
-1.3.1 (2020-01-14)
------------
-* No changes to rviz package
-=======
 * No changes to rviz package.
 
 1.3.1 (2020-01-14)
 -----------
 * No changes to rviz package.
->>>>>>> mitre-kinetic-devel
 
 1.3.0 (2019-12-2)
 -----------
