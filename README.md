@@ -1,3 +1,30 @@
+## kvh_geo_fog_3d (kinetic) - 1.5.1-2
+
+The packages in the `kvh_geo_fog_3d` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic kvh_geo_fog_3d` on `Tue, 20 Jul 2021 16:04:52 -0000`
+
+These packages were released:
+- `kvh_geo_fog_3d`
+- `kvh_geo_fog_3d_driver`
+- `kvh_geo_fog_3d_msgs`
+- `kvh_geo_fog_3d_rviz`
+
+Version of package(s) in repository `kvh_geo_fog_3d`:
+
+- upstream repository: https://github.com/MITRE/kvh_geo_fog_3d.git
+- release repository: https://github.com/MITRE/kvh_geo_fog_3d-release.git
+- rosdistro version: `1.3.3-1`
+- old version: `1.5.1-1`
+- new version: `1.5.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.1`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## kvh_geo_fog_3d (noetic) - 1.5.1-1
 
 The packages in the `kvh_geo_fog_3d` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic kvh_geo_fog_3d --edit` on `Tue, 20 Jul 2021 15:49:14 -0000`
