@@ -1,0 +1,12 @@
+Source: ros-noetic-kvh-geo-fog-3d-msgs
+Section: misc
+Priority: optional
+Maintainer: Trevor Bostic <tbostic@mitre.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-kvh-geo-fog-3d-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: kvh_geo_fog_3d_msgs contains raw messages for the KVH GEO FOG 3D INS devices.
