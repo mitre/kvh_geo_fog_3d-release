@@ -1,0 +1,12 @@
+Source: ros-noetic-kvh-geo-fog-3d-driver
+Section: misc
+Priority: optional
+Maintainer: Zach LaCelle <zlacelle@mitre.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-diagnostic-updater, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-kvh-geo-fog-3d-msgs, ros-noetic-message-generation, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-rosunit, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-kvh-geo-fog-3d-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-diagnostic-updater, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-kvh-geo-fog-3d-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-ros
+Description: A ROS driver for the KVH Geo Fog 3D INS family of systems.
